@@ -80,7 +80,7 @@ AHK 语法简单说明
 例2: 将`Ctrl + Alt + Shift + Win + Q` 映射为启动 QQ
 
 ```ahk
-`^!+#q::run QQ所在完整路径地址`
+^!+#q::run QQ所在完整路径地址
 ```
 
 [AutoHotKey官网](https://www.autohotkey.com/docs/AutoHotkey.htm) 有`akh`语法的详细说明
