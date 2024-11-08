@@ -1,10 +1,12 @@
 # CapsLockPlus
 
 CapsLock，也就是键盘最左边一列中间那个大写锁定键，跟 shift 功能重复，需要输入大写字母的时候，一般都直接通过 Shift 输入了。  
-在换了 Anne-pro2 键盘之后, 发现 CapsLock 键和其他按键组合使用十分方便， 然而这是键盘的驱动软件的效果, 于是希望找到一个通用的解决方案。    
-试用过 [CapsLock+](https://cjkis.me/capslock+/) , 但是终究不如自定义来的顺心  
+在换了 Anne-pro2 键盘之后, 发现 CapsLock 键和其他按键组合使用十分方便， 然而这是键盘的驱动软件的效果, 于是希望找到一个通用的解决方案。  
+
+试用过 [CapsLock+](https://cjkis.me/capslock+/) , 但是终究不如自定义来的顺心    
 于是参考 [这篇文章](https://www.cnblogs.com/Vonng/p/4240219.html) ，编写 AutoHotKey 脚本, 魔改了 CapsLock, 自定义了 CapsLock 组合其他键的功能  
 AutoHotKey 脚本可以编译成`.exe`的可执行文件, 不需要安装, 双击即可运行, 删除就是卸载   
+
 `.exe`文件大小一共也就 1M 左右, 在github、网盘或邮箱备份一份, 在其他电脑上随用随下, 很方便，编译好的`.exe`文件可以加入开机启动, 不用每次开机都需要手动启动
 
 ## 文件说明
@@ -19,7 +21,7 @@ AutoHotKey 脚本可以编译成`.exe`的可执行文件, 不需要安装, 双�
 
 CapsLockPlus.exe 无需安装，双击即可运行
 
-### CapsLock 功能关闭
+### CapsLock 功能关闭（禁用 CapsLock）
 
 CapsLockPlus.exe 启动后，CapsLock 功能关闭，单独按下 CapsLock 键没有任何效果
 
@@ -42,7 +44,7 @@ CapsLock + n/m 分别对应 Backspace/Delete 键
 
 ### 功能键(F1~F12)
 
-CapsLock + 1/2/3...9/0/-/= 分别对应 F1~F12
+CapsLock + `1`/`2`/`3`...`9`/`0`/`-`/`=` 分别对应 F1~F12
 
 ### 菜单键
 
