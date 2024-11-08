@@ -29,8 +29,8 @@ ahk_map["="] = "F12"
 ahk_map["n"] = "Backspace"
 # m => Delete
 ahk_map["m"] = "Delete"
-# , => Insert
-ahk_map[","] = "Insert"
+# . => Insert
+ahk_map["."] = "Insert"
 # Enter => Menu
 ahk_map["Enter"] = "AppsKey"
 
